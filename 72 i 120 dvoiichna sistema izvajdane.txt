@@ -1,0 +1,7 @@
+string bin = "72";
+			string bin1 = "120";
+			int dec = Convert.ToString(bin,2);
+		int dec2 = Convert.ToString(bin1,2);
+		int suma = dec - dec2;
+			 suma = Convert.ToInt32(suma,2);
+		Console.WriteLine("sumata ot izvajdane na 72 ot dvoichna sistema i 120 e=" +suma);
